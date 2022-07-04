@@ -14,6 +14,11 @@ function openNav() {
   document.getElementById("main").style.marginLeft= "0";
   }
 
+  // Filter Category
+ 
+  // Filter end
+
+  
 
 
 
