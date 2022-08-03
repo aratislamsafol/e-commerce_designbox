@@ -3,6 +3,19 @@
     padding: 0;
 }
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 339px) {
+  .blog_sm_flex{
+    display: flex;
+    flex-direction: column;
+    border: 100%;
+  }  
+}
+
+@media only screen and (max-width: 1094px) {
+
+}
+
+
 @media only screen and (max-width: 400px) {
     .img_items_filter img{
         /* width: 84%; */
@@ -37,9 +50,6 @@
         left: 0; */
         /* transform: translate(50% 50%); */
       }
-
-      
-    
 }
 @media only screen and (max-width: 600px) {
     .img_items_filter img{
@@ -81,7 +91,6 @@
         margin: 0 auto;
        }
 
-       
 
 }
 
@@ -99,7 +108,7 @@
       .ban_3,.ban_4{
         height: 95%;
         width: 100%;
-      }
+      } 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
